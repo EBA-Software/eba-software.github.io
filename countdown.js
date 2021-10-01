@@ -1,21 +1,23 @@
-var i = document.getElementById('counter');
+var e = document.getElementById('counter');
+var b = document.getElementById('sec');
+var a = parseInt(e.innerHTML);
 function countdown() {
-  i = document.getElementById('counter');
-  if (parseInt(i.innerHTML) <= 0) {
-    location.href = 'index.html';
-  }
-  if (parseInt(i.innerHTML) != 0) {
-    i.innerHTML = parseInt(i.innerHTML) - 1;
+  e = document.getElementById('counter');
+  a = parseInt(e.innerHTML);
+  if (a <= 0) {
+    document.location = 'https://eba-software.github.io';
+  } else {
+    e.innerHTML = a - 1;
   }
   countdownSec();
 }
 
 function countdownSec() {
-  var x = document.getElementById('sec');
-  if (parseInt(i.innerHTML) == 1) {
-    x.innerHTML = 'second';
+  b = document.getElementById('sec');
+  if (a == 1) {
+    b.innerHTML = 'second';
   } else {
-    x.innerHTML = 'seconds';
+    b.innerHTML = 'seconds';
   }
 }
 setInternal(function(){ countdown(); },1000);
