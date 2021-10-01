@@ -1,6 +1,6 @@
-var i = document.getElementByID('counter');
+var i = document.getElementById('counter');
 function countdown() {
-  i = document.getElementByID('counter');
+  i = document.getElementById('counter');
   if (parseInt(i.innerHTML) <= 0) {
     location.href = 'index.html';
   }
@@ -11,7 +11,7 @@ function countdown() {
 }
 
 function countdownSec() {
-  var x = document.getElementByID('sec');
+  var x = document.getElementById('sec');
   if (parseInt(i.innerHTML) = 1) {
     x.innerHTML = 'second';
   } else {
