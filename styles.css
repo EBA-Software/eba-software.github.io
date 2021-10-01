@@ -26,11 +26,20 @@
 .blue:hover {
   background-color: #0000AA;
 }
+.bold {
+  text-decoration: bold;
+}
+.err {
+  font-size: 50px;
+}
 .green {
   background-color: #00FF00;
 }
 .green:hover {
   background-color: #00AA00;
+}
+.p100 {
+  width: 100%;
 }
 .p50 {
   width: 50%;
@@ -41,11 +50,44 @@
 .red:hover {
   background-color: #AA0000;
 }
+.textGreen {
+  color: #00FF00;
+}
+.textRed {
+  color: #FF0000;
+}
+.textYellow {
+  color: #FFFF00;
+}
 .yellow {
   background-color: #FFFF00;
 }
 .yellow:hover {
   background-color: #AAAA00;
+}
+::selection {
+  background: #FF0000;
+  color: black;
+}
+a:active {
+  color: #0000FF;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:hover {
+  color: #AA0000;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:link {
+  color: #FF0000;
+  background-color: transparent;
+  text-decordation: underline;
+}
+a:visited {
+  color: #FFAA00;
+  background-color: transparent;
+  text-decoration: underline;
 }
 body {
   margin-top: 5%;
