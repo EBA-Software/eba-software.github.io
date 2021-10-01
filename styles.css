@@ -1,0 +1,16 @@
+#header, #footer {
+  text-align: center;
+  padding: 0px;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  background-color: darkblue;
+  color: white;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: E0E0E0;
+}
