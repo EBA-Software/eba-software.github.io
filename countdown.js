@@ -7,15 +7,15 @@ function countdown() {
   if (parseInt(i.innerHTML) != 0) {
     i.innerHTML = parseInt(i.innerHTML) - 1;
   }
-  countdownSec();
+  //countdownSec();
 }
 
-function countdownSec() {
+/*function countdownSec() {
   var x = document.getElementById('sec');
   if (parseInt(i.innerHTML) = 1) {
     x.innerHTML = 'second';
   } else {
     x.innerHTML = 'seconds';
   }
-}
+}*/
 setInternal(function(){ countdown(); },1000};
