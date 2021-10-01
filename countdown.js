@@ -12,7 +12,7 @@ function countdown() {
 
 function countdownSec() {
   var x = document.getElementById('sec');
-  if (parseInt(i.innerHTML) = 1) {
+  if (parseInt(i.innerHTML) == 1) {
     x.innerHTML = 'second';
   } else {
     x.innerHTML = 'seconds';
