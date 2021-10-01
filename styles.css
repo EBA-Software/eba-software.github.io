@@ -29,6 +29,9 @@
 .bold {
   text-decoration: bold;
 }
+.disable {
+  cursor: not-allowed;
+}
 .err {
   font-size: 50px;
 }
