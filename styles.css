@@ -1,3 +1,8 @@
+#footer {
+  bottom: 0px;
+  margin-bottom: 0px;
+  height: 30%;
+}
 #header, #footer {
   text-align: center;
   padding: 0px;
@@ -8,6 +13,53 @@
   color: white;
   border: 1px solid black;
   border-collapse: collapse;
+}
+#header {
+  top: 0px;
+  margin-top: 0px;
+  position: fixed;
+  height: 10%;
+}
+.blue {
+  background-color: #0000FF;
+}
+.blue:hover {
+  background-color: #0000AA;
+}
+.green {
+  background-color: #00FF00;
+}
+.green:hover {
+  background-color: #00AA00;
+}
+.p50 {
+  width: 50%;
+}
+.red {
+  background-color: #FF0000;
+}
+.red:hover {
+  background-color: #AA0000;
+}
+.yellow {
+  background-color: #FFFF00;
+}
+.yellow:hover {
+  background-color: #AAAA00;
+}
+body {
+  margin-top: 5%;
+}
+button {
+  text-align: center;
+  color: black;
+  border: 1px solid black;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+button:hover {
+  color: white;
 }
 table, th, td {
   border: 1px solid black;
