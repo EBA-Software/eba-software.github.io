@@ -58,3 +58,6 @@ if (isComp === 0) {
 if (isComp === 1) {
   document.getElementByID("OSYellow").innerHTML = comp;
 }
+if (isComp === 2) {
+  document.getElementByID("OSGreen").innerHTML = comp;
+}
