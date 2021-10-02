@@ -1,7 +1,7 @@
 #footer {
   bottom: 0px;
   margin-bottom: 0px;
-  height: 300px;
+  height: 150px;
 }
 #header, #footer {
   text-align: center;
@@ -18,7 +18,7 @@
   top: 0px;
   margin-top: 0px;
   position: fixed;
-  height: 100px;
+  height: 70px;
 }
 .blue {
   background-color: #0000FF;
@@ -93,7 +93,7 @@ a:visited {
   text-decoration: underline;
 }
 body {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 button {
   text-align: center;
