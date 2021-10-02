@@ -20,4 +20,4 @@ function countdownSec() {
     b.innerHTML = 'seconds';
   }
 }
-setInternal(countdown, 1000);
+setInterval(countdown, 1000);
