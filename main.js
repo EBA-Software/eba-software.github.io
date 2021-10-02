@@ -2,6 +2,7 @@
 $(function(){
   $("#header").load("https://eba-software.github.io/header.html");
   $("#footer").load("https://eba-software.github.io/footer.html");
+  $("#data").load("https://eba-software.github.io/data.html");
 });
 
 //Create Functions
