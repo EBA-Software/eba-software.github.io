@@ -6,8 +6,7 @@ if (os.indexOf("X11") != -1) {
   isComp = 0;
 }
 if (os.indexOf("Windows NT 10") != -1) {
-  comp = "EBA Command Center is su]O
-pported in Windows 10";
+  comp = "EBA Command Center is supported in Windows 10";
   isComp = 2;
 }
 if (os.indexOf("Windows NT 8") != -1) {
