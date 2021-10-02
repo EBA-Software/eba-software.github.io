@@ -7,7 +7,8 @@ function countdown() {
   if (a <= 0) {
     document.location = 'https://eba-software.github.io';
   } else {
-    e.innerHTML = a - 1;
+    a = a - 1;
+    e.innerHTML = a;
   }
   countdownSec();
 }
