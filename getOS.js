@@ -52,11 +52,11 @@ if (os.indexOf("SMART-TV") != -1) {
 
 //Display
 if (isComp === 0) {
-  document.getElementByID("OSRed").innerHTML = comp;
+  document.getElementById("OSRed").innerHTML = comp;
 }
 if (isComp === 1) {
-  document.getElementByID("OSYellow").innerHTML = comp;
+  document.getElementById("OSYellow").innerHTML = comp;
 }
 if (isComp === 2) {
-  document.getElementByID("OSGreen").innerHTML = comp;
+  document.getElementById("OSGreen").innerHTML = comp;
 }
