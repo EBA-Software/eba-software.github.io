@@ -1,0 +1,238 @@
+<html lang="en">
+  <head>
+    <title>EBA Command Center | Changelog</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://eba-software.github.io/main.js"></script>
+    <link href="https://eba-software.github.io/styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="header"></div>
+    <div id="9.2">
+      <h3>Upcoming Release 1.2 (EBA 9.2)</h3>
+      <ul>
+        <li>Localization - Plugins will have the ability to change any text that appears in EBA Command Center by creating a Language file.</li>
+        <li>New Command (language) - This new command allows you to change the language. By default, there is only one language (English), but plugins can add new languages.</li>
+        <li>Updating Users and Settings to the new XML format.</li>
+        <li>EBA Command Centers code is being re-written (yet again) to allow for localization.</li>
+        <li>All Modifiable Startup Settings will have a command that allows the setting to be changed while EBA Command Center is running (ex: the command 'debug' will change the setting allowDebugMessages)</li>
+        <li>Improving Logs (A new Modifiable Startup Setting will allow logging of debug events. Logs will properly log more events. Log messages can also be modified.</li>
+        <li>Portable Mode - Install EBA Command Center on a USB drive, and use it across multiple devices, without making any changes to your PC.</li>
+        <li>Made a change where running the installer will not give a User Account Control prompt until you confirm the installation. It will only give a UAC prompt if the installation is not portable.</li>
+        <li>Commands, Users, and Settings will migrate on startup, instead of when the command 'migrate' is ran.</li>
+        <li>Encrypted Passwords - Before, passwords were stored on the device in a way where anyone can see it! Now, we're encrypting passwords, which makes it much more secure.</li>
+      </ul>
+    </div>
+    <div id="9.11">
+      <h3>Release 1.11 (EBA 9.11)</h3>
+      <ul>
+        <li>Updated the Initial Setup process.</li>
+        <li>A few other minor changes.</li>
+      </ul>
+    </div>
+    <div id="9.1">
+      <h3>Release 1.1 (EBA 9.1)</h3>
+      <ul>
+        <li>Command Parameters</li>
+        <li>Separate app for Windows 7, Vista, and XP.</li>
+        <li>Updated commands to be XML formatted.</li>
+        <li>Updated Import files to be XML formatted.</li>
+        <li>Updated backup files. All backup files now contain multiple types of data.</li>
+        <li>Added 4 permission levels (Anyone, General, Admin, Original Account) to the commands.</li>
+        <li>Added 'Run as Administrator' to commands.</li>
+        <li>EBA Malware Removal - If a command's target matches something in our list of Malware, we'll delete it.</li>
+        <li>Support for Windows XP.</li>
+        <li>Added additional help to some text boxes (such as config)</li>
+        <li>Downloads, EBA Blacklist, and App Icon are only available on the standard (Windows 8 and above) version.</li>
+        <li>'Run as Administrator' is only available in the standard or Windows 7 version.</li>
+      </ul>
+    </div>
+    <div id="9.01">
+      <h3>Release 1.01 (EBA 9.01)</h3>
+      <ul>
+        <li>A few minor bug fixes.</li>
+      </ul>
+    </div>
+    <div id="9">
+      <h3>Release 1 (EBA 9)</h3>
+      <ul>
+        <li>Plugins have been released!</li>
+        <li>Updates can be installed by the main script.</li>
+        <li>Clean Operation Completed Screen.</li>
+        <li>EBA Blacklist - You can now report users for violating Terms of Service, or creating malicious commands/plugins. They can be blocked from using EBA Command Center.</li>
+        <li>App Icon</li>
+        <li>Undid change from version 8.5-beta1 where the installer and app were separate.</li>
+        <li>EBA Command Center is out of the betas!</li>
+      </ul>
+    </div>
+    <div id="8.5-beta2">
+      <h3>EBA 8.5-beta2</h3>
+      <ul>
+        <li>Fixed a bug from 8.5-beta1 that prevented users from updating.</li>
+        <li>Fixed a bug where plugins would load while installing or updating.</li>
+      </ul>
+    </div>
+    <div id="8.5-beta1">
+      <h3>EBA 8.5-beta1</h3>
+      <ul>
+        <li>Improved scripting functions.</li>
+        <li>Removed secureShutdown and susActivity</li>
+        <li>Separate app and installer. Users will download the installer, which can install or update EBA Command Center.</li>
+        <li>The installer will download EBA Command Cente from the internet.</li>
+        <li>Changed the URL where the latest version will be downloaded from.</li>
+        <li>Fixed multiple bugs from EBA 8.4, 8.41-beta1, and 8.4. These bugs were major bugs that caused the takedown of these versions. These bugs have been fixed.</li>
+      </ul>
+    </div>
+    <div id="8.41">
+    </div>
+    <div id="8.41-beta1">
+      <h3>EBA 8.41-beta1</h3>
+      <ul>
+        <li>Plugins are now available to users. Tutorials on plugins coming soon.</li>
+        <li>Improved scripting functions.</li>
+        <li>Plugins can now execute VBS, JS, or EXE files when starting or stopping EBA Command Center. They can also execute those files when an Operation Complete screen pops up, or when a command with the type "script" references it.</li>
+        <li>Plugins can now hold commands within XML files, and localization data in localization.xml</li>
+      </ul>
+    </div>
+    <div id="8.4">
+      <h3>EBA 8.4</h3>
+      <ul>
+        <li>Fixed a bug that prevented WScript Errors from showing</li>
+        <li>Fixed a bug where EBA Command Center would not connect to the internet on the first try</li>
+        <li>Added plugin support. This is an experimental feature and is not yet fully developed</li>
+        <li>Removed support for EBA Keys. EBA Basic and EBA Professional have been discontinued, all users have a free copy of EBA Enterprise</li>
+      </ul>
+    </div>
+    <div id="8.3">
+    </div>
+    <div id="8.2">
+      <h3>EBA 8.2</h3>
+      <ul>
+        <li>Backups are now available to EBA Professional</li>
+      </ul>
+    </div>
+    <div id="8.1">
+    </div>
+    <div id="8">
+      <h3>EBA 8</h3>
+      <ul>
+        <li>Backups are available for EBA Enterprise, using the 'backup' command</li>
+        <li>Backups can be imported by EBA Basic and above</li>
+        <li>A few minor tweaks to the general UI</li>
+      </ul>
+    </div>
+    <div id="7.323">
+    </div>
+    <div id="7.322">
+    </div>
+    <div id="7.321">
+    </div>
+    <div id="7.32">
+    </div>
+    <div id="7.31">
+      <h3>EBA 7.31</h3>
+      <ul>
+        <li>EBA Keys are brought back. EBA Pro and EBA Enterprise are available.</li>
+      </ul>
+    </div>
+    <div id="7.3">
+      <h3>EBA 7.3</h3>
+      <ul>
+        <li>Support for 32 Bit OS</li>
+        <li>Shutdown Timer can be updated: EBA > Config > Shutdowntimer</li>
+      </ul>
+    </div>
+    <div id="7.21">
+      <h3>EBA 7.21</h3>
+      <ul>
+        <li>Minor but fix with the Check for Updates.</li>
+      </ul>
+    </div>
+    <div id="7.2">
+      <h3>EBA 7.2</h3>
+      <ul>
+        <li>EBA Command Center now detects for suspicious activity.</li>
+        <li>EBA Command Center can now read data from this website. This means EBA Command Center can alert you if an update is available.</li>
+        <li>You can also choose to disable your password on your user profile. Simply leave the password text box empty during setup, changing password, or creating a new account.</li>
+      </ul>
+    </div>
+    <div id="7.1">
+      <h3>EBA 7.1</h3>
+      <ul>
+        <li>EBA File Repair has been replaced with EBA Automatic Repair. You can run EBA Automatic Repair with the 'auto' command in EBA Recovery Mode and EBA StartFail Mode</li>
+        <li>When an issue with the installation occurs during execution, EBA Command Center will crash, with an error message after Operation Completed.</li>
+        <li>When an issue with the installation occurs before EBA Command Center starts, EBA Command Center will go into EBA StartFail Mode, where you can access EBA Recovery and Automatic Repair.</li>
+        <li>Initial setup is now done after EBA Command Center installs, instead of before.</li>
+        <li>When EBA Command Center encounters a Wscript error, you'll get an alert before Operation Completed, instead of auto-crashing EBA Command Center.</li>
+      </ul>
+    </div>
+    <div id="7">
+      <h3>EBA 7</h3>
+      <ul>
+        <li>EBA File Repair is no longer available. A new alternative is being created.</li>
+        <li>EBA Command Center's data is now located at C:\Users\USERNAME\AppData\Roaming\EBA</li>
+        <li>Account and command data is now stored within a single file, instead of within multiple folders.</li>
+        <li>You can now import or export commands using the 'import' or 'export' commands</li>
+        <li>Installs to C:\Program Files (x86)\EBA (updating from 6.1 and below will cause the old version to uninstall)</li>
+      </ul>
+    </div>
+    <div id="6.1">
+      <h3>EBA 6.1</h3>
+      <ul>
+        <li>EBA File Repair is now active. If EBA Command Center fails to find required files, EBA File Repair might be able to restore it.</li>
+        <li>EBA Recovery Mode is now active. Drop the Recovery Key on the desktop icon to run recovery mode. Commands for recovery mode:</li>
+        <ul>
+          <li>Repair</li>
+          <ul>
+            <li>File</li>
+            <ul>
+              <li>(path) - Run EBA File Repair on the given file.</li>
+            </ul>
+            <li>Refresh - Reinstall EBA Command Center</li>
+          </ul>
+          <li>Startup</li>
+          <ul>
+            <li>(startup) - Change startup type.</li>
+          </ul>
+        </ul>
+      </ul>
+    </div>
+    <div id="6">
+      <h3>EBA 6</h3>
+      <ul>
+        <li>EBA Command Center is now a single file, meaning the installer is no longer a zip file.</li>
+        <li>Commands can now require login to Administrator to execute.</li>
+        <li>EBA File Repair is available, but is not working.</li>
+        <li>EBA Recovery is in beta stages. Access by dragging the Recovery Key onto the desktop icon.</li>
+      </ul>
+    </div>
+    <div id="5.2">
+    </div>
+    <div id="5.1">
+    </div>
+    <div id="5">
+    </div>
+    <div id="4.2">
+    </div>
+    <div id="4.1">
+    </div>
+    <div id="4">
+    </div>
+    <div id="3.4">
+    </div>
+    <div id="3.3">
+    </div>
+    <div id="3.2">
+    </div>
+    <div id="3.1">
+    </div>
+    <div id="3">
+    </div>
+    <div id="2">
+    </div>
+    <div id="1">
+    </div>
+    <div id="concept">
+    </div>
+    <div id="footer"></div>
+  </body>
+</html>
