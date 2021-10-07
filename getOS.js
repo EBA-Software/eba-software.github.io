@@ -37,7 +37,7 @@ if (os.indexOf("Linux") != -1) {
   comp = "EBA Command Center is not supported on Unix!";
   isComp = 0;
 }
-if (os.indexOf("CrOs") != -1) {
+if (os.indexOf("CrOS") != -1) {
   comp = "EBA Command Center is not supported on ChromeOS!";
   isComp = 0;
 }
