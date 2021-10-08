@@ -109,8 +109,7 @@ button:hover {
 div {
     display: block;
     position: relative;
-    top: -250px;
-    visibility: hidden;
+    top: -75px;
 }
 table, th, td {
   border: 1px solid black;
