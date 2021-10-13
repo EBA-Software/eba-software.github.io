@@ -9,6 +9,6 @@ for (i = 0; i < coll.length; i++) {
       cont.style.maxHeight = null;
     } else {
       cont.style.maxHeight = cont.scrollHeight + "px";
-    }
+    } 
   });
 }
