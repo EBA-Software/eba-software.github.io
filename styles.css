@@ -57,6 +57,10 @@
 .p33 {
   width: 33.33%;
 }
+.pin {
+  font-size: 5px;
+  color: gray;
+}
 .red {
   background-color: #FF0000;
 }
