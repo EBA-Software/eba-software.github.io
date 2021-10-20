@@ -1,0 +1,145 @@
+<html lang="en">
+  <head>
+    <title>EBA Command Center | EBA Software</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://eba-software.github.io/main.js"></script>
+    <link href="https://eba-software.github.io/styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="header"></div>
+    <h1>EBA Command Center, from EBA Software</h1>
+    <div>
+      <p id="OSRed" class="textRed bold"></p>
+      <p id="OSYellow" class="textYellow bold"></p>
+      <p id="OSGreen" class="textGreen bold"></p>
+      <script src="https://eba-software.github.io/getOS.js"></script>
+      <button onclick="dwnld('https://eba-software.github.io/cmd/download/win10/9.11.ebacmd','EBA Command Center 9.11.vbs')" class="green p50">Download Latest Release (9.11) | 9/13/21</button><button onclick="dwnld('https://eba-software.github.io/cmd/download/win7/9.11.ebacmd','EBA Command Center 9.11.vbs')" class="green p50">Download Latest Release (Windows 7 Edition)</button>
+      <button onclick="document.location='cmd/download'" class="yellow p100">View All Downloads</button>
+      <button onclick="document.location='https://eba-software.github.io/support/cmd'" class="blue p50">Get Help</button><button onclick="document.location='cmd/eula.html'" class="red p50">End User License Agreement</button>
+    </div>
+    <hr color="#000000" noshade>
+    <div>
+      <h1>Announcements</h1>
+      <div>
+        <h3>Bug Fix involving Downloads</h3>
+        <p>We recently discovered a bug that prevented betas and legacy versions from downloading. This issue is now fixed.</p>
+      </div>
+      <div>
+        <h3>EBA Command Center 9.2-beta1 Released!</h3>
+        <p>We've released EBA Command Center 9.2-beta1 to our Beta download section!</p>
+        <p>We've fixed numerous bugs that we mentions previously, such as:</p>
+        <ul>
+          <li>Crazy lag when downloading files.</li>
+          <li>High CPU usage when setting languages.</li>
+          <li>"err.undefined" errors.</li>
+          <li>Debug Command</li>
+          <li>Crazy lag when creating a restore point.</li>
+        </ul>
+        <p>This update includes the following features:</p>
+        <ul>
+          <li>Language Support</li>
+          <li>Commands: Debug, Language, Restore</li>
+          <li>Password Encryption</li>
+          <li>Progress Bar on longer actions</li>
+          <li>Automatic creation of System Restore Points</li>
+          <li>Everything else listed in the <a href="cmd/changelog#9.2-beta1">Changelog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>EBA Command Center 9.2</h3>
+        <p>We're going to delay EBA Command Center 9.2 betas. We're going to fix up a few things, then we'll release a beta. Here's what we'll be doing:</p>
+        <ul>
+          <li>We'll be fixing the "err.undefined" errors that we know of.</li>
+          <li>Adding account config and default shutdown method.</li>
+          <li>Importing and Exporting.</li>
+        </ul>
+        <p>All features listed in the changelog file will be available (except the debug command).</p>
+        <p>EBA Command Center 9.2-beta1 should be available within 3 days.</p>
+      </div>
+      <div>
+        <h3>EBA Command Center 9.2</h3>
+        <p>We're going to release the first public beta of EBA Command Center Release 1.2. Most features will be available in Release 1.2-beta1, but the following features will be unavailable:</p>
+        <ul>
+          <li>Some prompts might result in the text "err.undefined", which simply means there is no text for that box yet. There should be very few of these.</li>
+          <li>Changing account settings or the default shutdown method.</li>
+          <li>Most config options will result in an err.undefined.</li>
+          <li>Exporting will not work.</li>
+          <li>Importing will only work by drag-and-drop. The command currently does not function.</li>
+          <li>Changing the Modifiable Startup Settings using the Debug command.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Changes regarding support for older operating systems</h3>
+        <p>As of EBA Command Center 9.1, we've split the program up into 3 editions: Windows 10 Edition, Windows 7 Edition, and Windows XP Edition. Compatibility info for each edition is displayed below.</p>
+        <table>
+          <tr>
+            <th>OS</th>
+            <th>Edition</th>
+          </tr>
+          <tr>
+            <td>Windows 11</td>
+            <td>Win10</td>
+          </tr>
+          <tr>
+            <td>Windows 10</td>
+            <td>Win10</td>
+          </tr>
+          <tr>
+            <td>Windows 8.1</td>
+            <td>Win10</td>
+          </tr>
+          <tr>
+            <td>Windows 8</td>
+            <td>Win10</td>
+          </tr>
+          <tr>
+            <td>Windows 7</td>
+            <td>Win7</td>
+          </tr>
+          <tr>
+            <td>Windows Vista</td>
+            <td>Win7</td>
+          </tr>
+          <tr>
+            <td>Windows XP</td>
+            <td>WinXP</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <hr color="#000000" noshade>
+    <div>
+      <h1>Frequently Asked Questions</h1>
+      <div>
+        <h3>What is EBA Command Center?</h3>
+        <p>EBA Command Center is a Windows shortcut application. It is designed to clean the clutter on your desktop, by allowing you to move shortcuts off your desktop, and link to them using 'commands'. EBA Command Center can link a 'command' to a file, folder, website, or command prompt.</p>
+      </div>
+      <div>
+        <h3>How can I enroll into the EBA Command Center beta?</h3>
+        <p>Enrollment is simple! Click the View All Downloads button above, then click Beta.</p>
+      </div>
+      <div>
+        <h3>When is the next update coming out, and what's new?</h3>
+        <p>Check out the <a href="cmd/changelog">Changelog</a> for the latest details and expected release date.</p>
+      </div>
+      <div>
+        <h3>I need help!</h3>
+        <p>Don't worry! Click the Get Help button above to visit the official support page. Click Contact Us at the bottom of the page to contact us.</p>
+      </div>
+      <div>
+        <h3>What guides are there?</h3>
+        <p>We currently have 3 guides:</p>
+        <ul>
+          <li>Our Support Page (Click the Get Help button above)</li>
+          <li>Fandom (Click the Wiki button below)</li>
+          <li><a href="https://fileinfo.com/extension/ebacmd">Entries on Fileinfo</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>I don't use Windows! Can I still run EBA Command Center.</h3>
+        <p>Not right now. We hope to soon expand EBA Command Center to Android and MacOS. We are currently unsure about expanding to iOS and Linux.</p>
+      </div>
+    </div>
+    <div id="footer"></div>
+  </body>
+</html>
