@@ -21,6 +21,16 @@
       <li>You can save the file by clicking File, then clicking Save. You can also press Ctrl+S.</li>
       <li>Be warned that if you update EBA Command Center, your changes will be lost!</li>
     </ol>
+    <div id="startup" class="marker"></div>
+    <h2>Startup Settings</h2>
+    <p>EBA Command Center has startup settings that can be configured in the code. These settings are found after the variables. These settings include errHandle, showDebugMessages, and maxPlugins. These settings can be changed to edit the way EBA Command Center starts. Many of these settings can also be temporarily changed using "debug".<p>
+    <ul>
+      <li>ErrHandle - When enabled, EBA Command Center will handle errors without crashing. EBA Command Center can display any errors it encounters as a custom WScript Error popup. If disabled, EBA Command Center will instead crash with the default WScript Error popup.</li>
+      <li>ShowDebugMessages - When enabled, debug messages will be displayed. This includes messages when EBA Command Center reads/writes data, or checks a status such as whether or not EBA Command Center is running is administrator.</li>
+      <li>LogDebug - When enabled, debug events will be added to the log file.</li>
+      <li>LoadPlugin - When disabled, plugins will not load. Cannot be toggled using "debug".</li>
+      <li>MaxPlugins - Sets the maximum plugin value.</li>
+    </ul>
     <div id="footer"></div>
   </body>
 </html>
