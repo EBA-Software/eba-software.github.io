@@ -51,11 +51,20 @@
 .p100 {
   width: 100%;
 }
+.p90 {
+  width: 90%;
+}
+.p66 {
+  width: 66.66%;
+}
 .p50 {
   width: 50%;
 }
 .p33 {
   width: 33.33%;
+}
+.p10 {
+  width: 10%;
 }
 .pin {
   font-size: 10px;
