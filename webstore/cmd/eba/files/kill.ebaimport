@@ -1,4 +1,10 @@
-<Main>" & tab(1) & "<Type>command</Type>" & tab(1) & "<Command>" & tab(2) & "<Name>" & temp(0) & "</Name>" & tab(2) & "<Type>" & getNode(dataLoc & "\Cmd\" & temp(0) & ".ebacmd", "Command/Type") & "</Type>" & tab(2) & "<Target>" & getNode(dataLoc & "\Cmd\" & temp(0) & ".ebacmd", "Command/Target") & "</Target>" & tab(2) & "<Login></Target>
-    <Admin></Admin>
+<Main>
+  <Type>command</Type>
+  <Command>
+    <Name>kill</Name>
+    <Type>cmd</Type>
+    <Target>taskkill /im {1} /f</Target>
+    <Login>1</Login>
+    <Admin>false</Admin>
   </Command>
 </Main>
