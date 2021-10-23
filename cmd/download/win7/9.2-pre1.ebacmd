@@ -1826,7 +1826,6 @@ Sub checkBlacklist
 	End If
 End Sub
 Function checkFolder(str)
-	db "." & str & "."
 	If errHandle Then On Error GoTo 0
 	If Err.Number <> 0 Or str = "" Then
 		checkFolder = False
