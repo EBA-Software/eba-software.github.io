@@ -13,29 +13,23 @@
     <div id="9.2-pre2" class="marker"></div>
     <h3>Pre-Release 1.2-2 (9.2-pre2)</h3>
     <ul>
-      <li>Added functions:</li>
+      <li>Functions:</li>
       <ul>
-        <li>RegWrite(strA,strB,strC) = cmd.RegWrite(regLoc & "\" & strA, strB, strC)</li>
+        <li>New Function - RegWrite(strA,strB,strC) = cmd.RegWrite(regLoc & "\" & strA, strB, strC)</li>
+        <li>Update - ReDim the loadedPlugin array during the LoadPlug function.</li>
       </ul>
-      <li>Updated Functions</li>
+      <li>Variables:</li>
       <ul>
-        <li>ReDim the loadedPlugin array during the LoadPlug function.</li>
+        <li>New Var - Const r_dword = "REG_DWORD"</li>
+        <li>New Var - Const r_string = "REG_SZ"</li>
       </ul>
-      <li>Added Variabled:</li>
-      <ul>
-        <li>Const r_dword = "REG_DWORD"</li>
-        <li>Const r_string = "REG_SZ"</li>
-      </ul>
-      <li>Added Language Strings:</li>
+      <li>Language Strings:</li>
       <ul>
         <li>Added Error 147.</li>
         <li>Added Code 220.</li>
         <li>Added Message 616.</li>
-      </ul>
-      <li>Unused Language Strings:</li>
-      <ul>
-        <li>409 is now unused.</li>
-        <li>412 is now unused.</li>
+        <li>Removed Debug 409.</li>
+        <li>Removed Debug 412.</li>
       </ul>
     </ul>
     
