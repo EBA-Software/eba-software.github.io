@@ -21,7 +21,7 @@ function dwnld(fileDir, name) {
 })(window, document, "clarity", "script", "69wj77p43q");
 
 //Dark Mode
-function toggleDark
+function toggleDark() {
   const themeStylesheet = document.getElementById('dark');
   const themeToggle = document.getElementById('dark-mode');
   themeToggle.addEventListener('click', () => {
