@@ -19,3 +19,16 @@ function dwnld(fileDir, name) {
   t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
   y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
 })(window, document, "clarity", "script", "69wj77p43q");
+
+//Dark Mode
+document.addEventListener('DOMContentLoaded', () => {
+  const themeStylesheet = document.getElementById('dark');
+  const themeToggle = document.getElementById('dark-mode');
+  themeToggle.addEventListener('click', () => {
+    if(themeStylesheet.href.includes('light')){
+      themeStylesheet.href = 'https://eba-software.github.io/styles-dark.css';
+    } else {
+      themeStylesheet.href = 'https://eba-software.github.io/styles.css';
+    }
+  })
+})
