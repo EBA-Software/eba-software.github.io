@@ -134,6 +134,12 @@ div.marker {
     position: relative;
     top: -75px;
 }
+hr.dark {
+  color: #000000;
+}
+hr.gray {
+  color: #BBBBBB;
+}
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
