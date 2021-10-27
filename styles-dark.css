@@ -2,29 +2,29 @@
   border: 1px solid white;
 }
 .blue {
-  background-color: #0000FF;
+  background-color: #0000AA;
 }
 .blue:hover {
-  background-color: #0000AA;
+  background-color: #0000FF;
 }
 .colcon {
   background-color: #d1d1d1;
 }
 .green {
-  background-color: #00FF00;
+  background-color: #00AA00;
 }
 .green:hover {
-  background-color: #00AA00;
+  background-color: #00FF00;
 }
 .pin {
   font-size: 10px;
   color: lightgray;
 }
 .red {
-  background-color: #FF0000;
+  background-color: #AA0000;
 }
 .red:hover {
-  background-color: #AA0000;
+  background-color: #FF0000;
 }
 .textGreen {
   color: #00DD00;
@@ -36,13 +36,14 @@
   color: #DDDD00;
 }
 .yellow {
-  background-color: #FFFF00;
+  background-color: #AAAA00;
 }
 .yellow:hover {
-  background-color: #AAAA00;
+  background-color: #FFFF00;
 }
 body {
   background-color: #000000;
+  color: #FFFFFF;
 }
 button {
   color: white;
