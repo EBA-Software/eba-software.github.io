@@ -1,0 +1,58 @@
+#header, #footer {
+  border: 1px solid white;
+}
+.blue {
+  background-color: #0000FF;
+}
+.blue:hover {
+  background-color: #0000AA;
+}
+.colcon {
+  background-color: #d1d1d1;
+}
+.green {
+  background-color: #00FF00;
+}
+.green:hover {
+  background-color: #00AA00;
+}
+.pin {
+  font-size: 10px;
+  color: lightgray;
+}
+.red {
+  background-color: #FF0000;
+}
+.red:hover {
+  background-color: #AA0000;
+}
+.textGreen {
+  color: #00DD00;
+}
+.textRed {
+  color: #DD0000;
+}
+.textYellow {
+  color: #DDDD00;
+}
+.yellow {
+  background-color: #FFFF00;
+}
+.yellow:hover {
+  background-color: #AAAA00;
+}
+body {
+  background-color: #000000;
+}
+button {
+  color: white;
+  border: 1px solid white;
+}
+button:hover {
+  color: black;
+}
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  background-color: #C0C0C0;
+}
