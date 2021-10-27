@@ -27,9 +27,10 @@ function toggleDark() {
   themeToggle.addEventListener('click', () => {
     if(themeStylesheet.href.includes('dark')){
       themeStylesheet.href = 'https://eba-software.github.io/styles-dark.css';
-      localStorage.setItem('dark', 'dark-theme.css');
+      localStorage.setItem('dark', 'https://eba-software.github.io/styles-dark.css');
     } else {
       themeStylesheet.href = 'https://eba-software.github.io/styles.css';
+      localStorage.setItem('dark', 'https://eba-software.github.io/styles.css'
     }
   })
 }
