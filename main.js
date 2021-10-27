@@ -30,7 +30,7 @@ function toggleDark() {
       localStorage.setItem('dark', 'https://eba-software.github.io/styles-dark.css');
     } else {
       themeStylesheet.href = 'https://eba-software.github.io/styles.css';
-      localStorage.setItem('dark', 'https://eba-software.github.io/styles.css'
+      localStorage.setItem('dark', 'https://eba-software.github.io/styles.css');
     }
   })
 }
