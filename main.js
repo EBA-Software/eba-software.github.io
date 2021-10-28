@@ -40,29 +40,19 @@ function getCookie(name) {
   return "";
 }
 
-function getCookie(c_name) {
-    if (document.cookie.length > 0) {
-        c_start = document.cookie.indexOf(c_name + "=");
-        if (c_start != -1) {
-            c_start = c_start + c_name.length + 1;
-            c_end = document.cookie.indexOf(";", c_start);
-            if (c_end == -1) {
-                c_end = document.cookie.length;
-            }
-            return unescape(document.cookie.substring(c_start, c_end));
-        }
-    }
-    return "";
-}
-
 //Dark Mode
 function toggleDark() {
   const themeStylesheet = document.getElementById('dark');
   if(themeStylesheet.href.includes('dark')){
     themeStylesheet.href = 'https://eba-software.github.io/styles.css';
-    localStorage.setItem('dark', 'https://eba-software.github.io/styles.css');
+    createCookie('dark','false');
   } else {
     themeStylesheet.href = 'https://eba-software.github.io/styles-dark.css';
-    localStorage.setItem('dark', 'https://eba-software.github.io/styles-dark.css');
+    createCookie('dark','true');
   }
+}
+
+//Read Dark Mode Cookie
+if (getCookie('dark') == 'true') {
+  toggleDark()
 }
