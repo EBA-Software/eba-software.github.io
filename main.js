@@ -23,14 +23,11 @@ function dwnld(fileDir, name) {
 //Dark Mode
 function toggleDark() {
   const themeStylesheet = document.getElementById('dark');
-  const themeToggle = document.getElementById('dark-mode');
-  themeToggle.addEventListener('click', () => {
-    if(themeStylesheet.href.includes('dark')){
-      themeStylesheet.href = 'https://eba-software.github.io/styles-dark.css';
-      localStorage.setItem('dark', 'https://eba-software.github.io/styles-dark.css');
-    } else {
-      themeStylesheet.href = 'https://eba-software.github.io/styles.css';
-      localStorage.setItem('dark', 'https://eba-software.github.io/styles.css');
-    }
-  })
+  if(themeStylesheet.href.includes('dark')){
+    themeStylesheet.href = 'https://eba-software.github.io/styles-dark.css';
+    localStorage.setItem('dark', 'https://eba-software.github.io/styles-dark.css');
+  } else {
+    themeStylesheet.href = 'https://eba-software.github.io/styles.css';
+    localStorage.setItem('dark', 'https://eba-software.github.io/styles.css');
+  }
 }
