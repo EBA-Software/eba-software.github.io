@@ -24,10 +24,10 @@ function dwnld(fileDir, name) {
 function toggleDark() {
   const themeStylesheet = document.getElementById('dark');
   if(themeStylesheet.href.includes('dark')){
-    themeStylesheet.href = 'https://eba-software.github.io/styles-dark.css';
-    localStorage.setItem('dark', 'https://eba-software.github.io/styles-dark.css');
-  } else {
     themeStylesheet.href = 'https://eba-software.github.io/styles.css';
     localStorage.setItem('dark', 'https://eba-software.github.io/styles.css');
+  } else {
+    themeStylesheet.href = 'https://eba-software.github.io/styles-dark.css';
+    localStorage.setItem('dark', 'https://eba-software.github.io/styles-dark.css');
   }
 }
