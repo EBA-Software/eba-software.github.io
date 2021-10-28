@@ -1,3 +1,12 @@
+//If debug page
+var debugMode = False
+if (document.location == 'https://eba-software.github.io/debug.html') {
+  debugMode = true;
+}
+if (document.location == 'https://eba-software.github.io/debug') {
+  debugMode = true;
+}
+
 //Get Header, Footer, and Status
 $(function(){
   $("#header").load("https://eba-software.github.io/header.html");
@@ -7,6 +16,7 @@ $(function(){
 
 //Create Functions
 function dwnld(fileDir, name) {
+  alert("Downloading: " + fileDir);
   var a = document.createElement("a");
   a.href = fileDir;
   a.setAttribute("download",name);
@@ -22,9 +32,11 @@ function dwnld(fileDir, name) {
 
 //Cookies
 function createCookie(name,value) {
+  alert("Creating Cookie: " + name + "=" + value + "; path=/";
   document.cookie = name + "=" + value + "; path=/";
 }
 function getCookie(name) {
+  alert("Getting Cookie: " + name);
   name = name + "=";
   let decodedCookie = decodeURIComponent(document.cookie);
   let ca = decodedCookie.split(';');
