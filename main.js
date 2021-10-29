@@ -16,7 +16,7 @@ $(function(){
 
 //Create Functions
 function dwnld(fileDir, name) {
-  alert("Downloading: " + fileDir);
+  if (debugMode == true) {alert("Downloading: " + fileDir)}
   var a = document.createElement("a");
   a.href = fileDir;
   a.setAttribute("download",name);
@@ -32,11 +32,11 @@ function dwnld(fileDir, name) {
 
 //Cookies
 function createCookie(name,value) {
-  alert("Creating Cookie: " + name + "=" + value + "; path=/";
+  if (debugMode == true) {alert("Creating Cookie: " + name + "=" + value + "; path=/")}
   document.cookie = name + "=" + value + "; path=/";
 }
 function getCookie(name) {
-  alert("Getting Cookie: " + name);
+  if (debugMode == true) {alert("Reading Cookie: " + name)}
   name = name + "=";
   let decodedCookie = decodeURIComponent(document.cookie);
   let ca = decodedCookie.split(';');
