@@ -1,2 +1,3 @@
-<BlockedComputers>
-</BlockedComputers>
+<Blacklist>
+  <Name>EBA-PC</Name>
+</Blacklist>
