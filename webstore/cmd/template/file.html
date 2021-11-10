@@ -1,4 +1,3 @@
-
 <html lang="en">
   <head>
     <title>EBA Command Center | Webstore</title>
@@ -8,26 +7,28 @@
   </head>
   <body>
     <div id="header"></div>
-    <h1>Webstore Item | <a href="index.html">USERNAME</a> / Kill.ebaimport</h1>
+    <h1>Webstore Item | <a href="index.html">USERNAME</a> / File.ebaimport</h1>
     <p>Desc.</p>
-    <p>Publisher: <a href="index.html">USERNAME</a></p>
+    <button onclick="dwnld('files/file.ebaimport','File.ebaimport')" class="p100 green">Download from EBA Software</button>
+    <button onclick="alert('Notice: This item was published by EBA Software. You\'re already on the publishers website!')"class="p100 yellow">Visit Publishers Site</button>
+    <h2>Item Information</h2>
+    <p>Syntax: "file"</p>
     <table>
       <tr>
-        <td>Date</td>
+        <th>Publisher</th>
+        <th>Version</th>
+        <th>Published</th>
+        <th>Type</th>
+        <th>Rating</th>
+      </tr>
+      <tr>
+        <td><a href="index">USERNAME</a></td>
+        <td>0</td>
         <td>xx/xx/xx</td>
-      </tr>
-      <tr>
-        <td>Type</td>
         <td>Command</td>
-      </tr>
-      <tr>
-        <td>EBA Rating</td>
         <td>0</td>
       </tr>
-    </table> 
-    <p>Syntax: "file"</p>
-    <button onclick="dwnld('files/file.ebaimport','file.ebaimport')" class="p100 green">Download from EBA Software</button>
-    <button onclick="document.location='https://example.com'"class="p100 yellow">Visit Publishers Site</button>
+    </table>
     <div id="footer"></div>
   </body>
 </html>
