@@ -15,6 +15,12 @@ Our best product yet! EBA Command Center is a Windows application that is design
 
 Check out EBA Command Center at https://eba-software.github.io/cmd
 
+### EBA Software Gaming
+
+An entire branch of EBA Software! Instead of Windows apps that make it easier to use your PC, EBA Software Gaming has games for Windows and Android. This branch is running off Game Jolt.
+
+Check out EBA Software Gaming at https://eba-software.github.io/games
+
 ### EBA Application Manager
 
 A project that we've recently started. EBA Application Manager will be a program that is designed to automatically monitor and update other EBA Software Apps! This program will have the ability to configure settings for other apps, automatically backup your data, inform you about the latest news from EBA Software, enable beta on any program, sync your data across multiple programs, keep EBA Apps up to date, access and install Webstore items, and more! The project was started in November 2021, and has not been released yet. This is our only project that does not allow modifications (as seen in the EULA), but this program will still support plugins with language files. This program will also be free!
