@@ -12,6 +12,7 @@ $(function(){
   $("#header").load("https://eba-software.github.io/header.html");
   $("#footer").load("https://eba-software.github.io/footer.html");
   $("#status").load("https://eba-software.github.io/status.html");
+  $("#err403").load("https://eba-software.github.io/403.html");
   $("#status-dark").load("https://eba-software.github.io/status-dark.html");
 });
 
