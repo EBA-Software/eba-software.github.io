@@ -9,7 +9,11 @@ if (os.indexOf("Windows NT 10") != -1) {
   comp = "This program is supported in Windows 10";
   isComp = 2;
 }
-if (os.indexOf("Windows NT 8") != -1) {
+if (os.indexOf("Windows NT 6.3") != -1) {
+  comp = "This program is supported in Windows 8.1";
+  isComp = 2;
+}
+if (os.indexOf("Windows NT 6.2") != -1) {
   comp = "This program is supported in Windows 8";
   isComp = 2;
 }
