@@ -5,4 +5,7 @@
   <Name>MCHS_308</Name>
   <Reason>Deleting my work! (Took me half an hour to repair the damage)</Reason>
   <Expiry>12/19/21</Expiry>
+  <Domain>mcs.k12.ny.us</Domain>
+  <Reason>The Massena Central School District has blocked the EBA Software website. Therefore, EBA Software cannot run on any machine enlisted under this domain.</Reason>
+  <Expiry>Upon Request from Massena Central School District</Expiry>
 </Blacklist>
