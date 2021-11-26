@@ -8,7 +8,4 @@
   <Domain>mcs.k12.ny.us</Domain>
   <Reason>The Massena Central School District has blocked the EBA Software website. Therefore, EBA Software cannot run on any machine enlisted under this domain.</Reason>
   <Expiry>Upon Request from Massena Central School District</Expiry>
-  <User>happy</User>
-  <Reason>Ban reason is not included in the ban report.</Reason>
-  <Expiry>When revoked by EBA Software</Expiry>
 </Blacklist>
