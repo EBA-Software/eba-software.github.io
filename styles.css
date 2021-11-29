@@ -20,6 +20,9 @@
   position: fixed;
   height: 70px;
 }
+.alertbox {
+  background-color: #FFFF00;
+}
 .blue {
   background-color: #0000FF;
 }
