@@ -7,19 +7,22 @@
   </head>
   <body>
     <div id="header"></div>
-    <h1 class="err">Error 403</h1>
     <div class="errbox">
       <h1>Content Unavailable</h1>
       <p>The requested document could not be accessed.</p>
       <p id="errorDetails"></p>
       <p>If you were sent a link to this page, please contact the person that sent the link.</p>
       <p>Otherwise, please check the URL or try again later.</p>
+      <br>
+      <p>Error Code: 403</p>
     </div>
     <script>
       document.getElementById("errorDetails").innerHTML = "Your request to access '" + window.location.href + "' failed because you do not have access to the requested document.";
     </script>
+    <br>
+    <button onclick="document.location='https://eba-software.github.io'" class="blue p50">Go To Homepage</button>
+    <br>
     <div class="alertbox">
-      <button onclick="document.location='https://eba-software.github.io'" class="blue p50">Go To Homepage</button>
       <p>You will be redirected to the home page in <span id="counter">30</span> <span id="sec">seconds</span>.</p>
     </div>
     <script src="https://eba-software.github.io/countdown.js"></script>
