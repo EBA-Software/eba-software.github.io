@@ -8,17 +8,21 @@
   <body>
     <div id="header"></div>
     <h1 class="err">Error 403</h1>
-    <p id="errorDetails"></p>
-    <script>
-      document.getElementById("errorDetails").innerHTML = "Error Details: A request to access '" + window.location.href + "' failed because you do not have access to the requested document. Please check that you are signed in and try again.";
-    </script>
-    <button onclick="document.location='https://eba-software.github.io'" class="blue p50">Go To Homepage</button>
-    <p>You will be redirected to the home page in <span id="counter">30</span> <span id="sec">seconds</span>.</p>
-    <script src="https://eba-software.github.io/countdown.js"></script>
-    <div>
-      <h3>What does this mean?</h3>
-      <p>You do not have access to this page.</p>
+    <div class="errbox">
+      <h1>Content Unavailable</h1>
+      <p>The requested document could not be accessed.</p>
+      <p id="errorDetails"></p>
+      <p>If you were sent a link to this page, please contact the person that sent the link.</p>
+      <p>Otherwise, please check the URL or try again later.</p>
     </div>
+    <script>
+      document.getElementById("errorDetails").innerHTML = "Your request to access '" + window.location.href + "' failed because you do not have access to the requested document.";
+    </script>
+    <div class="alertbox">
+      <button onclick="document.location='https://eba-software.github.io'" class="blue p50">Go To Homepage</button>
+      <p>You will be redirected to the home page in <span id="counter">30</span> <span id="sec">seconds</span>.</p>
+    </div>
+    <script src="https://eba-software.github.io/countdown.js"></script>
     <div id="footer"></div>
   </body>
 </html>
