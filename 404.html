@@ -7,13 +7,14 @@
   </head>
   <body>
     <div id="header"></div>
-    <h1 class="err">Error 404</h1>
     <div class="errbox">
       <h1>Content Unavailable</h1>
       <p>The requested document could not be accessed.</p>
       <p id="errorDetails"></p>
       <p>If you were sent a link to this page, please contact the person that sent the link.</p>
       <p>Otherwise, please check the URL or try again later.</p>
+      <br>
+      <p>Error Code: 404</p>
     </div>
     <script>
       document.getElementById("errorDetails").innerHTML = "Your request to access '" + window.location.href + "' failed because the requested document was not found.";
