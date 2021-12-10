@@ -8,23 +8,18 @@
   <body>
     <div id="header"></div>
     <div class="errbox">
-      <h1>Content Unavailable</h1>
-      <p>The requested document could not be accessed.</p>
-      <p id="errorDetails"></p>
-      <p>Please check the URL or try again later.</p>
+      <h1 class="err">Content Unavailable</h1>
+      <h1>Something isn't adding up...</h1>
+      <p>It looks like your IP or device has been blocked!</p>
+      <p>This usually happens when you are banned from EBA Software.</p>
+      <p>If you believe this is an error, please contact us.</p>
       <br>
       <p>Error Code: 401</p>
+      <br>
+      <button onclick="document.location='https://eba-software.github.io/support/contact'" class="p90 red">Visit EBA Software Support | Contact Us</button>
+      <br>
+      <p>If the link above does not work, please email official-eba@outlook.com</p>
     </div>
-    <script>
-      document.getElementById("errorDetails").innerHTML = "Your request to access '" + window.location.href + "' failed because you do not have access to the website.";
-    </script>
-    <br>
-    <button onclick="document.location='https://eba-software.github.io'" class="yellow p100">Go To Homepage</button>
-    <br>
-    <div class="alertbox">
-      <p>You will be redirected to the home page in <span id="counter">60</span> <span id="sec">seconds</span>.</p>
-    </div>
-    <script src="https://eba-software.github.io/countdown.js"></script>
     <div id="footer"></div>
   </body>
 </html>
