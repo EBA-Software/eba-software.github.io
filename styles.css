@@ -22,6 +22,8 @@
 }
 .alertbox {
   background-color: #FFFF00;
+  border: 1px solid black;
+  text-align: center;
 }
 .blue {
   background-color: #0000FF;
@@ -44,6 +46,11 @@
 }
 .err {
   font-size: 50px;
+}
+.errbox {
+  background-color: #FF0000;
+  border: 1px solid black;
+  text-align: center;
 }
 .green {
   background-color: #00FF00;
