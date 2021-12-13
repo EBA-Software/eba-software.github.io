@@ -1,0 +1,29 @@
+<html lang="en">
+  <head>
+    <title>Unavailable</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://eba-software.github.io/main.js"></script>
+    <link href="https://eba-software.github.io/styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="header"></div>
+    <div class="errbox">
+      <h1>Content Unavailable</h1>
+      <p>This page has no content.</p>
+      <p>This error means that the page exists, but it is empty.</p>
+      <br>
+      <p>Error Code: 404-1</p>
+    </div>
+    <script>
+      document.getElementById("errorDetails").innerHTML = "Your request to access '" + window.location.href + "' failed because the requested document was not found.";
+    </script>
+    <br>
+    <button onclick="document.location='https://eba-software.github.io'" class="yellow p100">Go To Homepage</button>
+    <br>
+    <div class="alertbox">
+      <p>You will be redirected to the home page in <span id="counter">60</span> <span id="sec">seconds</span>.</p>
+    </div>
+    <script src="https://eba-software.github.io/countdown.js"></script>
+    <div id="footer"></div>
+  </body>
+</html>
