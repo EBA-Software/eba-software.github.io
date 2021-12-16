@@ -58,6 +58,11 @@
 .green:hover {
   background-color: #00AA00;
 }
+.infobox {
+  background-color: #0000FF;
+  border: 1px solid black;
+  text-align: center;
+}
 .p100 {
   width: 100%;
 }
