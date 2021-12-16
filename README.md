@@ -5,7 +5,7 @@
 EBA Software is a Windows software development team.
 Previously known as EBA Tools, and known as the developer of EBA Command Center.
 
-You can find us at https://eba-software.github.io/cmd
+You can find us at https://eba-software.github.io
 
 ## Our Products
 
