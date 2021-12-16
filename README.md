@@ -21,6 +21,10 @@ An entire branch of EBA Software! Instead of Windows apps that make it easier to
 
 Check out EBA Software Gaming at https://eba-software.github.io/games
 
+### EBA Software On The Web
+
+EBA Software On The Web is a new part of EBA Software. EBA Software On The Web allows some of our apps to run online! This project was started on December 14 2021, and was completed and open for Five Nights at Ethans on December 16, 2021. EBA Software On The Web can be accessed on a products page if the product supports it.
+
 ### EBA Application Manager
 
 A project that we've recently started. EBA Application Manager will be a program that is designed to automatically monitor and update other EBA Software Apps! This program will have the ability to configure settings for other apps, automatically backup your data, inform you about the latest news from EBA Software, enable beta on any program, sync your data across multiple programs, keep EBA Apps up to date, access and install Webstore items, and more! The project was started in November 2021, and has not been released yet. This is our only project that does not allow modifications (as seen in the EULA), but this program will still support plugins with language files. This program will also be free!
