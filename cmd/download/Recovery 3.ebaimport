@@ -1,6 +1,0 @@
-<Main>
-	<Type>Startup_Key</Type>
-	<Startup>
-		<Type>eba.recovery</Type>
-	</Startup>
-</Main>
