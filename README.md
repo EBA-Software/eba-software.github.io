@@ -1,5 +1,8 @@
 # EBA Software
 
+## IMPORTANT
+EBA Software has been DISCONTINUED as of January 30, 2023. Thank you for your understanding.
+
 ## What is EBA Software
 
 EBA Software is a Windows software development team.
