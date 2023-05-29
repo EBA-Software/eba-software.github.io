@@ -2,7 +2,4 @@
   <Domain>mcs.k12.ny.us</Domain>
   <Reason>Suspending the manager of EBA Software.</Reason>
   <Expiry>Never</Expiry>
-  <Name>EthanBlaisAlarms-PC</Name>
-  <Reason>Test</Reason>
-  <Expiry>Never</Expiry>
 </Blacklist>
